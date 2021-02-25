@@ -23,7 +23,7 @@ h1 {
 }
 h2, h3 {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    margin-top: 6%;
 }
 
 strong, em {
@@ -36,7 +36,6 @@ ul {
 
 .menu a {
     color: #f5cb5c;
-
 }
 
 .menu li {
@@ -50,6 +49,9 @@ ul {
 
 img {
     margin: 20px;
+    border-radius: 12%;
+    padding: 10px;
+    background-color: #cfdbd5;
 }
 
 ol {
@@ -57,9 +59,8 @@ ol {
 }
 
 div#photo img {
-    border: solid 10px yellow;
     float: left;
-    /* display: inline; */
+    margin-right: 50px;
 }
 
 div:nth-of-type(1), div:nth-of-type(2)  {
@@ -67,8 +68,7 @@ div:nth-of-type(1), div:nth-of-type(2)  {
 }
 
 div:nth-of-type(3) {
-    /* border: solid 0.3em; */
     display: block;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
