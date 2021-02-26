@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'univers-condensed';
+    src: url(fonts/univers-condensed-bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	text-align: center;
+    background-color: #181818;
+    color: #d9d9d9;
+    padding-inline-start: 0px;
+}
+
+body {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+h1 {
+    font-family: 'univers-condensed';
+    font-size: 40px;
+}
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+strong, em {
+    color: #f5cb5c;
+}
+
+.menu a {
+    color: #f5cb5c;
+
+}
+
+.menu li {
+    position: relative;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    list-style-type: none; /*esconder os marcadores laterais, bolinhas laterais*/
+    font-size: 18px;
+}
+
+img {
+    margin: 20px;
+}
+
+ol {
+	list-style: none;
+}
