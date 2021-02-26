@@ -5,16 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonnes' Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'univers-condensed';
+            src: url(fonts/univers-condensed-bold.ttf);
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        * {
+            text-align: center;
+            background-color: #181818;
+            color: #d9d9d9;
+            padding-inline-start: 0px;
+        }
+        h1 {
+            font-family: 'univers-condensed';
+            font-size: 40px;
+        }
+        h2, h3 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-style: bold;
+            padding: 0px;
+        }
+
+        strong, em {
+            color: #f5cb5c;
+        }
+
+        .menu a {
+            color: #f5cb5c;
+
+        }
+
+        ol:nth-child(1) li {
+            position: relative;
+            display: inline;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        ul:last-of-type li:nth-child(1), li:nth-child(2), li:nth-child(5), li:nth-child(6) {
+            list-style-type: none; /*esconder os marcadores laterais, bolinhas laterais*/
+            font-size: 18px;
+        }
+
+        img {
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
-    <img id="profilePhoto" src="linkedin profile.jpg" alt="Jonnes com um leve sorriso, uma camiseta preta e seu cabelo esvoaçante." width="250">
-    <h1>Jonnes Bezerra Costa</h1>
+    <header>
+        <ol class="menu">
+            <li><a href="#me">About Me</a></li>
+            <li><a href="#skills">Top Skills</a></li>
+            <li><a href="#photo">Profile Photograph</a></li>
+            <li><a href="#fav">Fav Blog</a></li>
+        </ol>
+    </header>
+    <img id="profilePhoto" src="images/linkedin profile.jpg" alt="Jonnes com um leve sorriso, uma camiseta preta e seu cabelo esvoaçante." width="250">
+    <h1>JONNES BEZERRA COSTA</h1>
 
     <ol>
-        <li><a href="#me">About Me</a></li>
-        <li><a href="#skills">Top Skills</a></li>
-        <li><a href="#photo">Profile Photograph</a></li>
-        <li><a href="#fav">Fav Blog</a></li>
+        <li>
+            <h2 id="me">About Me</h2>
+            <p>Jonnes Bezerra is a <strong>Brasília/DF-based</strong> <em>Software Development Student</em> who specializes in <em>learn</em>. Mostly code, but <em>Soft Skills</em> as well, like <em>comunication, colaboration, creativity, leadership and others</em>. As a <strong>Brazilian</strong>, Jonnes is passionate about Brazil and has had the opportunity to live in several states and travel to several others. <br>
+            <br>
+            Jonnes is addicted to <em>cinema, fashion, technology, music and sports</em>. He loved to read blogs and all kind of stuff about this, so he left a link to one of his favorite blogs at the end of the page.
+            </p>
+        </li>
+        <li>
+            
+        </li>
+        <li></li>
+        <li></li>
     </ol>
     
     <h2 id="me">1. About Me</h2>
