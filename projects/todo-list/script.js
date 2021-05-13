@@ -30,17 +30,27 @@ function doneNotDone(event) {
   }
 }
 
+function createLi() {
+  const listItem = document.createElement('li');
+  listItem.addEventListener('click', selectItem);
+  listItem.addEventListener('dblclick', doneNotDone);
+  listItem.innerHTML = input.value;
+  list.appendChild(listItem);
+  input.value = '';
+}
+
 // add a task to the Task List
 // I took this IF idea from Bruno Afonso's PR: https://github.com/tryber/sd-010-b-project-todo-list/blob/brunoAffonso-project-tod-list/script.js
 function addTask() {
+  input.addEventListener('keyup', (event) => {
+    if (event.keyCode === 13 && input.value) {
+      createLi();
+    }
+  });
+
   button.addEventListener('click', () => {
-    const listItem = document.createElement('li');
-    listItem.addEventListener('click', selectItem);
-    listItem.addEventListener('dblclick', doneNotDone);
-    if (input.value !== '') {
-      listItem.innerHTML = input.value;
-      list.appendChild(listItem);
-      input.value = '';
+    if (input.value) {
+      createLi();
     }
   });
 }
