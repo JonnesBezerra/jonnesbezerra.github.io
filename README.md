@@ -1,4 +1,4 @@
-# Trybe
+# Jonnes Bezerra Costa
 
 Este repositório contém projetos desenvolvidos por _[Jonnes Bezerra](https://www.linkedin.com/in/jonnesbezerra/)_, projetos estes que julgou interessante publicar. Os projetos foram desenvolvidos enquanto estudava na [Trybe](https://www.betrybe.com/) 🚀
 
