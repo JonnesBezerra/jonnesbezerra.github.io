@@ -10,6 +10,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Projetos:
 
+- [Recipes App](https://jonnesbezerra.github.io/RecipesApp)
 - [Lessons Learned](https://jonnesbezerra.github.io/projects/lessons-learned/)
 - [Online Portfolio](https://jonnesbezerra.github.io/projects/online-portfolio/)
 - [Pixels Art](https://jonnesbezerra.github.io/projects/pixels-art/)
